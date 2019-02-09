@@ -24,7 +24,7 @@
                     android:id="@+id/btnLogin"
                     android:layout_width="126dp"
                     android:layout_height="48dp"
-                    android:layout_below="@+id/editText7"
+                    android:layout_below="@+id/Konfirmasi"
                     android:layout_alignParentEnd="true"
                     android:layout_marginTop="24dp"
                     android:layout_marginEnd="77dp"
@@ -57,7 +57,7 @@
                     />
 
                 <EditText
-                    android:id="@+id/editText"
+                    android:id="@+id/Nama"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/textView11"
@@ -74,10 +74,10 @@
                     android:textSize="14sp" />
 
                 <EditText
-                    android:id="@+id/editText2"
+                    android:id="@+id/Tanggal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/editText"
+                    android:layout_below="@+id/Nama"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentEnd="true"
                     android:layout_marginStart="55dp"
@@ -91,10 +91,10 @@
                     android:textSize="14sp" />
 
                 <EditText
-                    android:id="@+id/editText3"
+                    android:id="@+id/Alamat"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/editText2"
+                    android:layout_below="@+id/Tanggal"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentEnd="true"
                     android:layout_marginStart="55dp"
@@ -108,10 +108,10 @@
                     android:textSize="14sp" />
 
                 <EditText
-                    android:id="@+id/editText4"
+                    android:id="@+id/Email"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/editText3"
+                    android:layout_below="@+id/Alamat"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentEnd="true"
                     android:layout_marginStart="55dp"
@@ -125,10 +125,10 @@
                     android:textSize="14sp" />
 
                 <EditText
-                    android:id="@+id/editText5"
+                    android:id="@+id/Username"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/editText4"
+                    android:layout_below="@+id/Email"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentEnd="true"
                     android:layout_marginStart="55dp"
@@ -142,10 +142,10 @@
                     android:textSize="14sp" />
 
                 <EditText
-                    android:id="@+id/editText6"
+                    android:id="@+id/Password"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/editText5"
+                    android:layout_below="@+id/Username"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentEnd="true"
                     android:layout_marginStart="55dp"
@@ -159,10 +159,10 @@
                     android:textSize="14sp" />
 
                 <EditText
-                    android:id="@+id/editText7"
+                    android:id="@+id/Konfirmasi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/editText6"
+                    android:layout_below="@+id/Password"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentEnd="true"
                     android:layout_marginStart="55dp"
@@ -176,10 +176,10 @@
                     android:textSize="14sp" />
 
                 <Button
-                    android:id="@+id/btnRegister"
+                    android:id="@+id/btnDaftar"
                     android:layout_width="116dp"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/editText7"
+                    android:layout_below="@+id/Konfirmasi"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentEnd="true"
                     android:layout_marginStart="71dp"
